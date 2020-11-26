@@ -53,7 +53,7 @@ $(document).ready(function () {
   });
 
 
-  $('a.scroll-equipo').on('click', function (e) {
+  $('a.scroll-plan').on('click', function (e) {
     e.preventDefault();
     var seccionOffsetTop = $($(this).attr('href')).offset().top - 122
     $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);

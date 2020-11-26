@@ -571,19 +571,19 @@ body{
 
 
 
-.main .nuestro-equipo{
+.main .planes{
   background: #F3F4FA;
   padding-bottom: 108px;
 }
 
-.main .nuestro-equipo .equipo{
+.main .planes .equipo{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.main .nuestro-equipo .equipo .plan{
+.main .planes .equipo .plan{
   background: #fff;
   padding: 50px;
   width: 100%;
@@ -592,24 +592,24 @@ body{
   text-align: center;
 }
 
-.main .nuestro-equipo .equipo .plan h2{
+.main .planes .equipo .plan h2{
   
   text-align: center;
   padding-bottom: 30px;
 }
-.main .nuestro-equipo .equipo .plan .m-4{
+.main .planes .equipo .plan .m-4{
   text-align: left;
 }
-.main .nuestro-equipo .equipo .plan .m-4 .checklinea{
+.main .planes .equipo .plan .m-4 .checklinea{
   display: flex;
   padding-bottom: 20px;
 }
-.main .nuestro-equipo .equipo .plan .m-4 .checklinea i{
+.main .planes .equipo .plan .m-4 .checklinea i{
   padding-right: 8px;
   font-size: 22px;
 }
 
-.main .nuestro-equipo .equipo .plan .m-5 a{
+.main .planes .equipo .plan .m-5 a{
   text-decoration: none;
   font-size: 17px;
   padding: 15px 20px;
@@ -618,7 +618,7 @@ body{
   background-color: #191919;
   transition: all ease-in-out 0.3s;
 }
-.main .nuestro-equipo .equipo .plan .m-5 a:hover{
+.main .planes .equipo .plan .m-5 a:hover{
   background-color: #666666;
   
 }
@@ -954,20 +954,20 @@ footer .footer-redes a:hover{
 
 
 @media screen and (max-width:1040px){
-  .main .nuestro-equipo .titulo-seccion{
+  .main .planes .titulo-seccion{
     margin-bottom: 60px;
   }
-  .main .nuestro-equipo .equipo .plan{
+  .main .planes .equipo .plan{
     max-width: 100%;
     display: block;
     justify-content: center;
     text-align: center;
     margin: 15px;
   }
-  .main .nuestro-equipo .equipo .plan:first-child{
+  .main .planes .equipo .plan:first-child{
     top: -20px;
   }
-  .main .nuestro-equipo .equipo .plan .foto{
+  .main .planes .equipo .plan .foto{
     margin-right: 20px;
   }
 
@@ -1111,6 +1111,23 @@ footer .footer-redes a:hover{
     line-height: 50px;
   }
   
+ /*.main .modal .contenedor-modal .contenedor-slide .slider1 .slide1 img{
+   src: url(../img/slide111.jpg);
+  }
+.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe2{
+    src: url(../img/slide211.jpg);
+  }
+
+.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe3{
+    src: url(../img/slide311.jpg);
+  }
+
+.main .modal .contenedor-modal .contenedor-slide .slider1  #slidepe4{
+    src: url(../img/slide411.jpg);
+  } */
+
+
+
 }
 
 
@@ -1140,13 +1157,13 @@ footer .footer-redes a:hover{
   .modal .textos-modal p{
     font-size: 18px;
   }
-  .main .nuestro-equipo .equipo .plan{
+  .main .planes .equipo .plan{
     padding: 50px 25px;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .main .nuestro-equipo .equipo .plan .m-5 a{
+  .main .planes .equipo .plan .m-5 a{
     
     font-size: 16px;
     padding: 10px 15px;  

@@ -29,7 +29,7 @@ $(document).ready(function () {
   $('.bene-persona1').on('click', function () {
 
     var rutaImagen = $(this).attr('src');
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Ahorro de tiempo y dinero</h2><p>Podras ahorar mucho tiempo y dinero gracias a la gran experiencia de nuestros abogados.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt="Beneficio persona lawgram"><div class="textos-modal"><h2>Ahorro de tiempo y dinero</h2><p>Podras ahorar mucho tiempo y dinero gracias a la gran experiencia de nuestros abogados.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
@@ -54,7 +54,7 @@ $(document).ready(function () {
   $('.bene-persona3').on('click', function () {
 
     var rutaImagen = $(this).attr('src');
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Control de proceso</h2><p>Podras tener un control total de tu proceso gracias a nuestra plataforma</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt="Beneficio persona lawgram"><div class="textos-modal"><h2>Control de proceso</h2><p>Podras tener un control total de tu proceso gracias a nuestra plataforma</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
   $('.bene-abogado1').on('click', function () {
 
     var rutaImagen = $(this).attr('src');
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Mayores ingresos</h2><p>Obten mayores ingresos gracias a la exposicion publica que te ofrecemos.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt="Beneficio abogado lawgram"><div class="textos-modal"><h2>Mayores ingresos</h2><p>Obten mayores ingresos gracias a la exposicion publica que te ofrecemos.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
   $('.bene-abogado2').on('click', function () {
 
     var rutaImagen = $(this).attr('src');
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt=""><div class="textos-modal"><h2>Administracion de casos</h2><p>Administra y organiza tus casos de una manera eficiente y sencilla gracias a nuestras herramientas.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="'+ rutaImagen  +'" alt="Beneficio abogado lawgram"><div class="textos-modal"><h2>Administracion de casos</h2><p>Administra y organiza tus casos de una manera eficiente y sencilla gracias a nuestras herramientas.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
@@ -86,7 +86,7 @@ $(document).ready(function () {
   })
   $('.bene-abogado3').on('click', function () {
 
-    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="img/bene-abogado31.jpg" alt=""><div class="textos-modal"><h2>Comunidad</h2><p>Podra ser parte de nuestra gran comunidad, en la cual podra compartir tus experiencias y casos para recibir un opinio y/o ayuda de otro abogado.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
+    var modal = '<div class="modal1" id="modal1"><div class="contenedor-modal"><img src="img/bene-abogado31.jpg" alt="Beneficio abogado lawgram"><div class="textos-modal"><h2>Comunidad</h2><p>Podra ser parte de nuestra gran comunidad, en la cual podra compartir tus experiencias y casos para recibir un opinio y/o ayuda de otro abogado.</p></div></div><div class="btn-cerrar" id="btnCerrar"><i class="fa fa-times" aria-hidden="true"></i></div></div>';
 
     $('#beneficios').after(modal);
 
